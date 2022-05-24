@@ -178,9 +178,9 @@ namespace Syscalls
 
 
 
-        // after 1000 subsequents failed calls it will stop re-trying
+        // after 5 subsequents failed calls it will stop re-trying
         static private uint failed_calls = 0;
-        static private uint MAX_FAILED_CALLS = 1000;
+        static private uint MAX_FAILED_CALLS = 5;
 
         // call the system call using the hash of the function name
         // EVERY system call returns NTSTATUS - Data.Native.NTSTATUS
