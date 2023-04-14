@@ -6,7 +6,7 @@ C# porting of [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2).
 
 It uses [SharpASM](https://github.com/SECFORCE/SharpASM) to find the code caves for executing the system call stub.
 
-Read the blog post for the technical details: https://secforce.com/blog/sharpasm-sharpwhispers
+Read the blog post for the technical details: [https://www.secforce.com/blog/sharpasm-sharpwhispers/](https://www.secforce.com/blog/sharpasm-sharpwhispers/)
 
 
 
